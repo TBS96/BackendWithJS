@@ -1,0 +1,23 @@
+{
+  "name": "backendwithjs",
+  "version": "1.0.0",
+  "description": "a basic node app to deploy",
+  "keywords": [
+    "node",
+    "init",
+    "npm",
+    "deploy"
+  ],
+  "license": "ISC",
+  "author": "prantik ghosh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0"
+  }
+}
