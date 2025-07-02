@@ -63,5 +63,5 @@ app.get('/githubuserdata', (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log(`Your server is running at: https://localhost:${PORT}`);
+    console.log(`Your server is running at: http://localhost:${PORT}`);
 })
